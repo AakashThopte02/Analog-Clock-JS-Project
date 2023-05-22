@@ -1,0 +1,52 @@
+.clockContainer {
+  position: relative;
+  width: 32.5vw;
+  height: 75vh;
+  border: 10px solid violet;
+  background-image: url("/clcok.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+#hour,
+#minute,
+#second {
+  position: absolute;
+}
+#hour {
+  background-color: black;
+  width: 3%;
+  height: 30%;
+  top: 20%;
+  left: 48%;
+  /* display: none; */
+  transform-origin: bottom;
+}
+#minute {
+  background-color: black;
+  width: 2%;
+  height: 36%;
+  top: 16.5%;
+  left: 48.3%;
+  opacity: 0.8;
+  /* display: none; */
+  transform-origin: bottom;
+}
+#second {
+  background-color: black;
+  width: 1%;
+  height: 37%;
+  top: 15.5%;
+  left: 49.3%;
+  opacity: 0.6;
+  transform-origin: bottom;
+}
+h1 {
+  font-size: 50px;
+  opacity: 0.5;
+  position: relative;
+  top: 38%;
+  left: 24%;
+}
